@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('kartinka2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    background: rgba(0, 123, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.about, .contact {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 123, 255, 0.8);
+}
+
+.slider {
+    text-align: center;
+}
+
+.slider img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+
+   window.onload = function() {
+       var music = document.getElementById('background-music');
+       music.volume = 0.5; // Установите громкость от 0.0 до 1.0
+       music.play();
+   };
+
+
+
+
+
+}
